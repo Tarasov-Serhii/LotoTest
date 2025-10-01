@@ -1,9 +1,37 @@
-header .container {
-	margin: 0 auto 0 auto;
+header > .container {
+	margin: 0 auto 0px auto;
+	max-width: 1397px;
+	height: 59px;
+	display: grid;
+    grid-template-columns: 2fr 1fr;
+	color:rgba(231,231,231,1);
 }
 
-
+.logo { 
+a {
+  text-decoration: none;
+  color:$primary-color;
+  }
+	font-size:12px;
+	margin: 15px 0 0 145px;
+    }
+ 
 nav {
-	 display: grid;
-    grid-template-columns: 10fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 67px 72px 60px 69px;
+	margin: 20px 0 0 50px;
+    gap: 8px;
 }
+
+
+.nav-item{
+	font-size: 12px;
+	text-decoration: none;
+	color:$primary-color;
+}
+
+.nav-item:hover{
+	color:rgba(253,219,13,1);
+}
+
+

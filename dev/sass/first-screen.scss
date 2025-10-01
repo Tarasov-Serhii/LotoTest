@@ -1,5 +1,58 @@
-h1 {
-    color: rgb(20, 178, 33);
+.first-screen{
+    height: 479px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/bg1.jpg) no-repeat center / cover;
+    background-position: 8px -139px;
 }
+
+
+.first-screen > .container {
+    margin:0 auto 0 auto;
+    max-width: 1168px;
+    padding: 108px 95px 0px 122px;
+}
+
+h1 {
+    font-size:42px;
+    margin-bottom:27px;
+}
+
+
+.text-1{
+    font-size: 14px;
+    margin-bottom:31px;
+}
+
+.text-2{
+    width: 933px;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+.text-3{
+    font-size:13px;
+    margin-bottom:33px;
+}
+
+.first-screen span {
+    color:rgba(77,210,255,1);
+}
+.scr-btn{
+    margin: 2px 0 0px 2px;
+    width: 181px;
+    height: 46px;
+    border:1px solid rgba(230,194,1,1);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(254,232,57,1);
+    cursor: pointer;
+    transition: box-shadow 0.6s ease, transform 0.3s ease;
+}
+
+.scr-btn:hover {
+  box-shadow: 0 0 15px 5px rgba(254,232,57,1);
+  transform: scale(1.05);
+}
+
+
 
 

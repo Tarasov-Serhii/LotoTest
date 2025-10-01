@@ -1,4 +1,13 @@
-.container {
-    margin:0 auto 0 auto;
-    width:1440px
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
+body{
+    background-color: rgba(14,15,18,1);
+    color:$primary-color;
+    font-family: $special-font;
+}
+
