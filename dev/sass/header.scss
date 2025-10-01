@@ -1,8 +1,9 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #000000;
-	a {
-		color: #a60808;
-	}
+header .container {
+	margin: 0 auto 0 auto;
+}
+
+
+nav {
+	 display: grid;
+    grid-template-columns: 10fr 1fr 1fr 1fr 1fr;
 }
