@@ -1,1 +1,61 @@
 
+
+
+.concert-screen table {
+    margin: 51px 0px 0 125px;
+    border: 1px solid rgb(42, 47, 58);
+    border-radius: 5px;
+    width: 934px;
+}
+
+tbody {
+       display: grid;
+    grid-template-rows: 52px 46px 51px 51px 52px 54px;
+}
+
+
+ tr   {  
+    border: 1px solid rgba(42,47,58,1);
+    display: grid;
+    grid-template-columns: 277px 1fr 220px 260px;
+} 
+
+.table-info{
+    font-size:13px;
+    padding: 18px 0 0 12px;
+}
+
+
+.capt {
+    padding-top: 17px;
+    padding-left: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.th{
+    font-size: 14px;
+    padding: 13px 0 0 9px;
+}
+
+
+.btn-order {
+    font-weight: 600;
+    font-size: 11px;
+    background-color:rgba(248,44,86,1) ;
+    border-color: rgba(224, 37, 73, 1);
+    border-radius: 8px;
+    width: 118px;
+    margin-top: -8px;
+    margin-left: 9px;
+    height: 30px;
+}
+
+
+
+
+.btn-order:hover{
+background-color:rgb(250, 191, 44) ;
+border-color: rgb(239, 228, 16);
+}
