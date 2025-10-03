@@ -4,18 +4,18 @@
 }
 
 
-.gallery-tittle-1{
-    margin-left: 14px;
-    font-size: 24px;
+  .gallery-tittle-1 {
     text-align: center;
-}
+    font-size: 25px;
+  }
 
 
 
 .gallery-cards {
     display: grid;
+    width: 852px;
     grid-template-columns: 238px 238px 238px;
-    margin: 38px 0 0 158px;
+    margin: 38px auto 0 auto;
     gap: 77px;
 }
 
@@ -38,20 +38,22 @@ width: 237px;
 }
 
 
+    .grid-g {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 .band-history {
-    position: relative;
     margin-top: 63px;
     padding: 56px 0 0 124px;
 }
 
 .band-history img{
-       position: absolute;
+    margin-top: 24px;
     width: 357px;
     height: 176px;
-    top: 113px;
-    right: 110px;
+  
 }
 
 .band-history p {
@@ -63,28 +65,30 @@ font-size: 13px;
 .gallery-text-1{
     margin-top: 29px;
     margin-left: 2px;
-    width: 575px;
+    max-width: 575px;
     letter-spacing: 1px;
 }
 
 
 .gallery-text-2 {
     margin: 17px 0 0 2px;
-    width: 550px;
+    max-width: 550px;
     letter-spacing: 1px;
 }
 
 
  .gallery-text-3{
     margin: 21px 0 0 2px;
-    width: 940px;
+    max-width: 940px;
+    letter-spacing: 1px;
  }
 
 
 
 .gallery-text-4 {
     margin: 24px 0 0 2px;
-    width: 925px;
+    max-width: 925px;
+    letter-spacing: 1px;
 }
 
 

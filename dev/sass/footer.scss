@@ -19,12 +19,19 @@
 
     .links{
         margin: 37px 0 0 293px;
+        display:flex
     }
 
 
     .links a{
-            text-decoration: none;
+    text-decoration: none;
     color: rgb(172, 176, 188);
+    }
+
+
+    .links a:hover{
+     color:rgb(250, 191, 44) ;
+
     }
 
 

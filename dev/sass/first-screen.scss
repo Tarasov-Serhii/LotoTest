@@ -1,13 +1,10 @@
 .first-screen{
     height: 479px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/bg1.jpg) no-repeat center / cover;
-    background-position: 8px -139px;
 }
 
 
 .first-screen > .container {
-    margin:0 auto 0 auto;
-    max-width: 1168px;
     padding: 108px 95px 0px 122px;
 }
 
@@ -23,7 +20,7 @@ h1 {
 }
 
 .text-2{
-    width: 933px;
+    max-width: 933px;
     font-size: 12px;
     margin-bottom: 22px;
 }
@@ -43,9 +40,16 @@ h1 {
     border:1px solid rgba(230,194,1,1);
     border-radius: 8px;
     font-size: 16px;
+    text-decoration: none;
+    color:black;
     background-color: rgba(254,232,57,1);
     cursor: pointer;
     transition: box-shadow 0.6s ease, transform 0.3s ease;
+}
+
+.scr-btn a {
+    text-decoration: none;
+    color:black;
 }
 
 .scr-btn:hover {

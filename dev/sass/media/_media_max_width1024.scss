@@ -1,4 +1,70 @@
 @media screen and (max-width: 1024px) {
+
+    tr{
+        grid-template-columns: 140px 140px 140px 140px;
+    }
+
+    .capt {
+    padding-top: 9px;
+    padding-left: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.th {
+    font-size: 12px;
+    padding: 13px 0 0 9px;
+}
+
+.table-info {
+    font-size: 10px;
+    padding: 15px 0 0 9px;
+}
+
+
+.gallery-cards {
+    gap: 16px;
+}
+
+.band-history p {
+    font-size: 11px;
+}
+
+.band-history {
+    padding-left: 20px;
+}
+
+        .contact-screen .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-screen {
+    height: 720px;
+}
+
+.map { 
+    margin: 20px 0 0 0px;
+}
+
+.textarea {
+    margin-left: 0px;
+
+}
+
+.inputs {
+    margin-left: 0px;
+}
+
+.btn-form{
+    margin: 12px 0 0 0px;
+}
+
+.links {
+    margin: 37px 0 0 140px;
+
+}
 }
 
 
